@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body class=""bg-[hsl(30, 38%, 92%)]"">
+    <!-- body background -->
+    <section class= "py-8 px-5">
+        <!-- entire card -->
+        <div class="container mx-auto lg:my-10 lg:mx flex ">
+
+            <!-- image sec -->
+            <div>
+                <img class="lg:hidden rounded-t-md" src="../images/image-product-mobile.jpg" alt=""/>
+
+                <img class="hidden lg:block md:hidden
+                rounded-l-md" src="../images/image-product-mobile.jpg" alt=""/>
+            </div>
+
+            <!-- text sec -->
+            <div class="bg-white rounded-b-md">
+                <div>
+                    <p class="text-[12px] text=[hsl(228,12%,48%)] firstp">Perfume</p>
+                    <h1 class="text-2xl lg:text-4xl text-[hsl (212,21%,14%)] font-bold">Gabrielle Essence Eau De Parfum</h1>
+                </div>
+                <!-- paragraph -->
+                <div>
+                    <p class="leading-[25px] text-[hsl(228,12%,48%)]">
+                        A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
+                    </p>
+                </div>
+                <div class="flex gap-6 items-center ">
+                    <p class="text-2xl lg:text-4xl text-[hsl(158,36%,37%)] secondp">$149.99</p>
+                    <p class="text-[hsl(228,12%,48%)] line-through">$169.99</p>
+                </div>
+                <div>
+                    <button class="flex gap-4 items-center text-white bg-[hsl(158,36%,37%)] py-3 px-16 rounded-md">
+                        <img src="../images/icon-cart.svg" alt="">
+                        <span>Add to Cart</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
